@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64651ed7-ec12-44f5-a011-6b24059430dd" name="Changes" comment="Actualizacion 00:50 hs 17/11" />
+    <list default="true" id="64651ed7-ec12-44f5-a011-6b24059430dd" name="Changes" comment="Actualizacion 00:50 hs 17/11">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/controller/ClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/controller/ClientesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/controller/MesaDeAyudaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/controller/TecnicoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Clientes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Estados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Incidente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Incidentes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/MesaDeAyuda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Servicios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Tecnico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Tecnicos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Tipos_Problemas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Hibernet/controller/ServicioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Hibernet/modelo/Servicio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Hibernet/modelo/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hibernate.cfg.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -20,16 +44,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="38250508-163a-46fb-8cdb-59cc5f041762" />
+        <option name="url" value="https://github.com/TheDarckMax/TPT_ArgProg.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="downloadDocsAutomatically" value="true" />
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2YHc3x5Y9h82gVqyVIJ1ZFlLcLO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -39,32 +84,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/TheDa/OneDrive/Unsa-drive/Algoritmos y ED/IdeaProjects/TrabajoIntegrador",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TheDa/OneDrive/Arg Prog/Tramo2/TPT&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="TPT" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="TPT" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\TheDa\OneDrive\Arg Prog\Tramo2\TPT\src\main\java\org\example" />
+      <recent name="C:\Users\TheDa\OneDrive\Arg Prog\Tramo2\TPT\src\main\java" />
+      <recent name="C:\Users\TheDa\OneDrive\Arg Prog\Tramo2\TPT\src\main\java\com\hibernet" />
+      <recent name="C:\Users\TheDa\OneDrive\Arg Prog\Tramo2\TPT\target" />
+      <recent name="C:\Users\TheDa\OneDrive\Arg Prog\Tramo2\TPT\src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,8 +122,20 @@
       <option name="project" value="LOCAL" />
       <updated>1700193070199</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Actualizacion 00:50 hs 17/11">
+      <created>1700193181704</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700193181704</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -97,7 +149,18 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Actualizacion 00:50 hs 17/11" />
     <option name="LAST_COMMIT_MESSAGE" value="Actualizacion 00:50 hs 17/11" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.internal.util.config.ConfigurationException" package="org.hibernate.internal.util.config" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
