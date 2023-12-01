@@ -30,7 +30,12 @@ public class Incidentes{
     }
 
     public Incidente getIncPos(int i){
-        return this.incidentes.get(i);
+        try {
+            return this.incidentes.get(i);
+        }catch (IndexOutOfBoundsException e){
+            System.out.println("Error, posicion inexistente");
+            return null;
+        }
     }
 
     public Incidente getIncidenteTec_Est(Tecnico t, Estados estados){
@@ -53,7 +58,14 @@ public class Incidentes{
             System.out.println( x.getEstado() + "\n");
         }
     }
-
+    public void MostrarIncidentes(){
+        System.out.println("\n");
+        for(int i = 0; i < this.incidentes.size();i++){
+            System.out.println("Estado: " + this.incidentes.get(i).getEstado());
+            System.out.println("Tecnico asignado: " + this.incidentes.get(i).getTecnicoAsignado().getNombre() + "\n");
+        }
+        System.out.println("\n");
+    }
 
 
 }

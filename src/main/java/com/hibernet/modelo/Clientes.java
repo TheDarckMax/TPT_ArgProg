@@ -29,4 +29,11 @@ public class Clientes {
         }
         else System.out.println("Cliente ya cargado");
     }
+
+    public void Mostrarclientes(){
+        for (int i=0; i < this.getClientes().size();i++){
+            System.out.println("Razon social: " + this.getClientes().get(i).getRaz_soc());
+        }
+        System.out.println("\n");
+    }
 }

@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64651ed7-ec12-44f5-a011-6b24059430dd" name="Changes" comment="Actualizacion 00:50 hs 17/11">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/controller/ClienteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/controller/ClientesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/controller/MesaDeAyudaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/controller/TecnicoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Clientes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Estados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Incidente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Incidentes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/MesaDeAyuda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Servicios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Tecnico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Tecnicos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Tipos_Problemas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="64651ed7-ec12-44f5-a011-6b24059430dd" name="Changes" comment="Ultima Modificacion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Hibernet/controller/ServicioController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Hibernet/modelo/Servicio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Hibernet/modelo/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Clientes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Incidentes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/Incidentes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/MesaDeAyuda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernet/modelo/MesaDeAyuda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700193181704</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ultima Modificacion">
+      <created>1701101312498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701101312498</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -151,7 +143,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Actualizacion 00:50 hs 17/11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion 00:50 hs 17/11" />
+    <MESSAGE value="Ultima Modificacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ultima Modificacion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
